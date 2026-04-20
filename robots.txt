@@ -8,4 +8,4 @@ Disallow: /checkout/
 Disallow: /*.php$
 
 # Sitemap location
-Sitemap: https://www.greennest.com/sitemap.xml
+Sitemap: https://rad-nougat-b30b2d.netlify.app/sitemap.xml

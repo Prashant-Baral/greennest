@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/backend paths
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /*.php$
+
+# Sitemap location
+Sitemap: https://www.greennest.com/sitemap.xml

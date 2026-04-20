@@ -1,0 +1,14 @@
+[build]
+  # Directory that contains the deploy-ready HTML files and assets.
+  publish = "."
+  
+  # No build command is needed for a static HTML site
+  command = ""
+
+# Optional: Add headers for security and caching if needed
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"

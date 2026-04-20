@@ -5,6 +5,25 @@
   # No build command is needed for a static HTML site
   command = ""
 
+# SEO Redirects to preserve link equity and fix broken links
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/store"
+  to = "/products.html"
+  status = 301
+  force = true
+
 # Optional: Add headers for security and caching if needed
 [[headers]]
   for = "/*"
